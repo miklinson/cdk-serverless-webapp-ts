@@ -21,7 +21,24 @@
     "typescript": "~3.9.7"
   },
   "dependencies": {
+    "@aws-cdk/aws-apigateway": "^1.106.1",
+    "@aws-cdk/aws-cloudformation": "^1.106.1",
+    "@aws-cdk/aws-cloudfront": "^1.106.1",
+    "@aws-cdk/aws-dynamodb": "^1.106.1",
+    "@aws-cdk/aws-iam": "^1.106.1",
+    "@aws-cdk/aws-lambda": "^1.106.1",
+    "@aws-cdk/aws-s3": "^1.106.1",
     "@aws-cdk/core": "1.106.1",
+    "@aws-cdk/custom-resources": "^1.106.1",
+    "@aws-solutions-constructs/aws-cloudfront-s3": "^1.105.0",
+    "@aws-solutions-constructs/aws-cognito-apigateway-lambda": "^1.105.0",
+    "@aws-solutions-constructs/aws-lambda-dynamodb": "^1.105.0",
+    "@aws-solutions-constructs/core": "^1.105.0",
     "source-map-support": "^0.5.16"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js"
+    ]
   }
 }
